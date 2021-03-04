@@ -1,4 +1,4 @@
-package com.github.kafkaminiproject.kafka.tutorial1;
+package kafka.tutorial1;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
@@ -28,7 +28,7 @@ public class ConsumerDemoWithThread {
         Logger logger = LoggerFactory.getLogger(ConsumerDemoWithThread.class.getName());
 
         String bootstrapServers = "127.0.0.1:9092";
-        String groupId = "my-third-application";
+        String groupId = "my-second-application";
         String topic = "first_topic";
 
         // latch for dealing with multiple threads

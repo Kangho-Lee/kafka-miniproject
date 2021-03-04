@@ -1,4 +1,4 @@
-package com.github.kafkaminiproject.kafka.tutorial1;
+package kafka.tutorial1;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
@@ -23,7 +23,7 @@ public class ProducerDemo {
 
         // Create a Producer Record
         ProducerRecord<String, String> record =
-                new ProducerRecord<String, String>("first_topic","hello world!");
+                new ProducerRecord<String, String>("first_topic","I`m holee. hello world!");
 
         // Send data - asynchronous
         producer.send(record);
