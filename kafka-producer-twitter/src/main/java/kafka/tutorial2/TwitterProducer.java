@@ -25,10 +25,10 @@ public class TwitterProducer {
 
     Logger logger = LoggerFactory.getLogger(TwitterProducer.class.getName());
 
-    String consumerKey = "KoxofBvIwdM9zz2JJ9vxg";
-    String consumerSecret = "kKBOnftLZ6htxvddgmZkzsii17ZeexCIgpIHNoWtE";
-    String token = "81761998-2Vu19ZxxFwEyik7XZ4ubG9mIj91wHdbIXdP08fId4";
-    String secret = "0E6eh4X0eum4NU81LXIKn6MMgH5TAWteL7asT8JxTo";
+    String consumerKey = "my-consumerKey";
+    String consumerSecret = "my-consumerSecret";
+    String token = "my-token";
+    String secret = "my-secret";
 
     List<String> terms = Lists.newArrayList("kafka");
 
