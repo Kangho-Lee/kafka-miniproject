@@ -32,7 +32,6 @@ public class ConsumerDemoGroups {
         // Create Consumer
         KafkaConsumer<String, String> consumer = new KafkaConsumer<String, String>(properties);
 
-
         // Subscribe Consumer to our topic(s)
         // consumer.subscribe(Collections.singleton(topic)); // topic 이 1개 일 때
         consumer.subscribe(Arrays.asList(topic));

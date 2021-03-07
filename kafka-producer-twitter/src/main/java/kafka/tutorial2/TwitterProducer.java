@@ -30,7 +30,7 @@ public class TwitterProducer {
     String token = "my-token";
     String secret = "my-secret";
 
-    List<String> terms = Lists.newArrayList("kafka");
+    List<String> terms = Lists.newArrayList("bitcoin");
 
     public TwitterProducer(){}
 
